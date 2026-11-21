@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 840" width="1280" height="840">
+  <rect width="1280" height="840" fill="#141824"/>
+  <text x="60" y="66" font-family="system-ui, sans-serif" font-size="36" font-weight="800" fill="#F2F4FA">Double Take</text>
+  <text x="60" y="94" font-family="system-ui, sans-serif" font-size="17" fill="#A9B2C9">Spot the difference — Scene 1 · Sunny Harbour, mid-game</text>
+  <rect x="60" y="112" width="1160" height="54" rx="14" fill="#1F2537"/>
+  <text x="84" y="146" font-family="system-ui, sans-serif" font-size="19" font-weight="700" fill="#F2F4FA">Sunny Harbour</text>
+  <rect x="300" y="124" width="262" height="30" rx="15" fill="#00C2A8"/>
+  <text x="316" y="145" font-family="system-ui, sans-serif" font-size="17" font-weight="800" fill="#0D201C">3 of 7 found, 4 remain</text>
+  <text x="600" y="146" font-family="system-ui, sans-serif" font-size="18" fill="#F2F4FA">Time: 01:12</text>
+  <text x="742" y="146" font-family="system-ui, sans-serif" font-size="18" fill="#F2F4FA">Mistakes: 1</text>
+  <text x="880" y="146" font-family="system-ui, sans-serif" font-size="18" fill="#F2F4FA">Hints left: 2</text>
+  <text x="60" y="196" font-family="system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#A9B2C9">ORIGINAL</text>
+  <text x="660" y="196" font-family="system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#A9B2C9">SPOT THE CHANGES</text>
+
+  <g transform="translate(60 206) scale(1.4)">
+    <rect width="400" height="185" fill="#7EC8E3"/>
+    <circle cx="330" cy="55" r="28" fill="#FFD93D" stroke="#F4A259" stroke-width="3"/>
+    <ellipse cx="90" cy="46" rx="34" ry="12" fill="#FFFFFF"/><ellipse cx="215" cy="32" rx="26" ry="9" fill="#FFFFFF"/>
+    <rect y="180" width="400" height="72" fill="#2E86AB"/>
+    <rect y="250" width="400" height="50" fill="#F6E3B4"/>
+    <rect x="52" y="112" width="26" height="92" fill="#FFFFFF" stroke="#33546D" stroke-width="2"/>
+    <rect x="52" y="128" width="26" height="12" fill="#E63946"/><rect x="52" y="154" width="26" height="12" fill="#E63946"/>
+    <polygon points="46,112 84,112 65,92" fill="#33546D"/>
+    <rect x="140" y="168" width="72" height="54" fill="#FFE0B2" stroke="#8D6E63" stroke-width="2"/>
+    <polygon points="132,168 220,168 176,138" fill="#A44A3F"/>
+    <rect x="150" y="178" width="14" height="14" fill="#FFF3B0"/><rect x="188" y="178" width="14" height="14" fill="#FFF3B0"/>
+    <line x1="252" y1="162" x2="252" y2="208" stroke="#5D4037" stroke-width="3"/>
+    <polygon points="252,164 252,204 282,204" fill="#FFFFFF" stroke="#33546D"/>
+    <path d="M218 208 h76 l-10 16 h-54 z" fill="#A44A3F"/>
+    <path d="M342 252 q-6 -34 4 -62" stroke="#7A4A21" stroke-width="7" fill="none"/>
+    <circle cx="340" cy="196" r="6" fill="#6F4518"/><circle cx="352" cy="198" r="6" fill="#6F4518"/>
+    <polygon points="110,258 113,267 122,267 115,273 118,282 110,277 102,282 105,273 98,267 107,267" fill="#FF8C42"/>
+    <circle cx="330" cy="55" r="30" fill="none" stroke="#FF3B30" stroke-width="4"/>
+    <circle cx="65" cy="160" r="17" fill="none" stroke="#FF3B30" stroke-width="4"/>
+    <circle cx="264" cy="186" r="21" fill="none" stroke="#FF3B30" stroke-width="4"/>
+  </g>
+
+  <g transform="translate(660 206) scale(1.4)">
+    <rect width="400" height="185" fill="#7EC8E3"/>
+    <circle cx="330" cy="55" r="28" fill="#FF7B54" stroke="#F4A259" stroke-width="3"/>
+    <ellipse cx="90" cy="46" rx="34" ry="12" fill="#FFFFFF"/><ellipse cx="215" cy="32" rx="26" ry="9" fill="#FFFFFF"/>
+    <path d="M258 80 q6 -6 12 0 q6 -6 12 0" stroke="#33546D" stroke-width="2.4" fill="none"/>
+    <rect y="180" width="400" height="72" fill="#2E86AB"/>
+    <rect y="250" width="400" height="50" fill="#F6E3B4"/>
+    <rect x="52" y="112" width="26" height="92" fill="#FFFFFF" stroke="#33546D" stroke-width="2"/>
+    <rect x="52" y="128" width="26" height="12" fill="#E63946"/>
+    <polygon points="46,112 84,112 65,92" fill="#33546D"/>
+    <rect x="140" y="168" width="72" height="54" fill="#FFE0B2" stroke="#8D6E63" stroke-width="2"/>
+    <polygon points="132,168 220,168 176,138" fill="#A44A3F"/>
+    <rect x="150" y="178" width="14" height="14" fill="#FFF3B0"/>
+    <line x1="252" y1="162" x2="252" y2="208" stroke="#5D4037" stroke-width="3"/>
+    <polygon points="252,164 252,204 282,204" fill="#2EC4B6" stroke="#33546D"/>
+    <path d="M218 208 h76 l-10 16 h-54 z" fill="#A44A3F"/>
+    <path d="M342 252 q-6 -34 4 -62" stroke="#7A4A21" stroke-width="7" fill="none"/>
+    <circle cx="340" cy="196" r="6" fill="#6F4518"/><circle cx="352" cy="198" r="6" fill="#6F4518"/><circle cx="346" cy="206" r="6" fill="#6F4518"/>
+    <circle cx="330" cy="55" r="30" fill="none" stroke="#FF3B30" stroke-width="4"/>
+    <circle cx="65" cy="160" r="17" fill="none" stroke="#FF3B30" stroke-width="4"/>
+    <circle cx="264" cy="186" r="21" fill="none" stroke="#FF3B30" stroke-width="4"/>
+  </g>
+
+  <text x="640" y="672" text-anchor="middle" font-family="system-ui, sans-serif" font-size="19" fill="#F2F4FA">Found one! Keep going.</text>
+  <rect x="440" y="700" width="150" height="46" rx="23" fill="#FFD93D"/>
+  <text x="515" y="730" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#191C28">Hint (H)</text>
+  <rect x="610" y="700" width="170" height="46" rx="23" fill="#1F2537"/>
+  <text x="695" y="730" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#F2F4FA">Restart (R)</text>
+  <text x="640" y="800" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#A9B2C9">SVG render of a live game state — 3 differences ringed in both pictures, 4 still unfound.</text>
+</svg>

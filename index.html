@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Double Take — Spot the Difference</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <h1>Double Take</h1>
+    <p class="tagline">Spot the difference — two pictures, seven changes, one sharp eye.</p>
+  </div>
+  <nav class="tabs" aria-label="Scenes">
+    <button class="tab active" type="button">Scene 1 · Harbour</button>
+    <button class="tab" type="button">Scene 2 · Mountains</button>
+  </nav>
+</header>
+
+<main>
+  <section class="stats" aria-live="polite">
+    <span id="sceneName" class="scene-name">Sunny Harbour</span>
+    <span id="counter" class="counter">0 of 7 found, 7 remain</span>
+    <span id="timer">Time: 00:00</span>
+    <span id="mistakes">Mistakes: 0</span>
+    <span id="hintsLabel">Hints left: 3</span>
+  </section>
+
+  <section class="board">
+    <figure class="panel">
+      <figcaption>Original</figcaption>
+      <div class="stage" id="stageL" tabindex="0" role="application"
+           aria-label="Original picture. Use arrow keys to move the cursor and Enter to mark a spot."></div>
+    </figure>
+    <figure class="panel">
+      <figcaption>Spot the changes</figcaption>
+      <div class="stage" id="stageR" tabindex="0" role="application"
+           aria-label="Changed picture. Use arrow keys to move the cursor and Enter to mark a spot."></div>
+    </figure>
+  </section>
+
+  <p id="message" class="message" aria-live="polite">Click a difference in either picture to mark it.</p>
+
+  <section class="controls">
+    <button id="hintBtn" type="button">Hint (H)</button>
+    <button id="restartBtn" type="button">Restart (R)</button>
+  </section>
+
+  <section id="winBox" class="win" hidden>
+    <h2>Scene complete!</h2>
+    <p id="winText"></p>
+    <button id="nextBtn" type="button">Play next scene</button>
+  </section>
+
+  <section class="help">
+    <h2>How to play</h2>
+    <p>The two pictures look almost identical, but the right one hides <strong>7 differences</strong>.
+       Click a difference in either picture and it is ringed in both. Find all 7 to finish the scene.</p>
+    <p><strong>Mouse:</strong> click a spot. <strong>Keyboard:</strong> Tab to a picture, move the dashed
+       cursor with the arrow keys (Shift = bigger steps), press Enter to mark, H for a hint, R to restart.
+       Hints are limited to 3 per scene, and wrong clicks count as mistakes.</p>
+  </section>
+</main>
+
+<footer>Runs fully offline from these files. No accounts, no tracking, no network.</footer>
+<script src="game.js"></script>
+</body>
+</html>
